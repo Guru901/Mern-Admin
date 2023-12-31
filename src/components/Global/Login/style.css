@@ -1,0 +1,62 @@
+.loginForm {
+  flex-direction: column;
+  text-align: start;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.signIn-label {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: flex-start;
+  width: 35rem;
+}
+
+.signIn-label::after {
+  content: "*";
+  color: red;
+}
+
+.signIn-label-checkbox {
+  font-size: var(--primary-font-size);
+  color: black;
+}
+
+.signIn-input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  height: 5rem;
+  width: 35rem;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 6px;
+  padding-left: 1rem;
+  background: transparent;
+}
+
+.signIn-checkbox {
+  height: 1.2rem;
+  margin-right: 53rem;
+  margin-top: 1rem;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.signIn-btn {
+  width: 35rem;
+  height: 4rem;
+  margin-top: 2rem;
+  background: #c4c4c4;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  font-size: var(--primary-font-size);
+  text-transform: uppercase;
+}

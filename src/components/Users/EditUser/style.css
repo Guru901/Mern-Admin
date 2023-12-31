@@ -1,0 +1,13 @@
+.dets-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.dets {
+  width: 100%;
+  height: 100%;
+}
+
+.editUserForm {
+  height: fit-content !important;
+}

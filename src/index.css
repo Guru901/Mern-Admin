@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+/* For Global usage of things and writing clean code */
+
+:root {
+  --bg: #151c2c;
+  --bgSoft: #182237;
+  --text: white;
+  --textSoft: #b7bac1;
+  --primary-color: #555555;
+  --secondary-color: #28303f;
+  --default-btn-color: #4172dc;
+  --accent: #262626;
+  --primary-font-size: 1.4rem;
+  --heading-font-size: 3.2rem;
+}
+
+.cur-po {
+  cursor: pointer;
+}
+
+.absolute-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max-width {
+  max-width: 80%;
+  margin: auto;
+}
+
+.ph-caret-down {
+  font-size: var(--primary-font-size);
+  margin-left: 5px;
+}
+
+.ul {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Till here the classes were global and applied to many of the HTML elements */
+/* They are used to make the code reusable and keep it clean */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+}
+
+body,
+html {
+  background: var(--bg);
+  width: 100%;
+  height: 100%;
+}
+
+*::selection {
+  background-color: #2e374a;
+}

@@ -1,0 +1,19 @@
+.elem {
+  width: 25vw;
+  max-width: 35rem;
+  height: 4rem;
+  border-radius: 10px;
+  text-align: start;
+  padding: 0 3rem;
+}
+
+.elem > a {
+  width: 100%;
+  text-align: start;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.elem:hover {
+  background: #2e374a;
+}

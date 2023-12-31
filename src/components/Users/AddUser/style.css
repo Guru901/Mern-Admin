@@ -1,0 +1,29 @@
+.dets > form {
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  align-items: flex-start;
+  margin-left: 30rem;
+}
+
+form > label {
+  font-size: 1.3rem;
+}
+
+.dets > form > input {
+  width: 35rem;
+  padding: 1rem;
+  height: 5rem;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+  font-size: 1.4rem;
+  outline: none;
+  color: #000;
+}
+
+.btn {
+  background: #fff;
+  text-transform: capitalize;
+  border-radius: 12px;
+  color: #000;
+}
