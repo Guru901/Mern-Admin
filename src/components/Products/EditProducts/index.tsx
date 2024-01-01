@@ -13,7 +13,11 @@ interface Product {
   discountedPrice: number;
 }
 
-const EditProducts: React.FC = (props: any) => {
+interface EditProducts {
+  getEdit: (user: any) => void;
+}
+
+const EditProducts: React.FC<EditProducts> = (props: any) => {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {

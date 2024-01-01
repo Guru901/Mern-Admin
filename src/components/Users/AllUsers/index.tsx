@@ -11,7 +11,11 @@ interface User {
   img: string;
 }
 
-const AllUsers: React.FC = (props: any) => {
+interface AllUsersProps {
+  getEditUser: (user: any) => void;
+}
+
+const AllUsers: React.FC<AllUsersProps> = (props: any) => {
   const [users, setUsers] = useState<User[]>([]);
 
   useEffect(() => {
@@ -93,7 +97,7 @@ const AllUsers: React.FC = (props: any) => {
               </button>
             )}
             {elem.role === "user" && (
-              <Link to="edit">
+              <Link to="/users/edit">
                 <button
                   className="editbtn absolute-center cur-po"
                   onClick={() => handleEdit(elem.email, elem.password)}
